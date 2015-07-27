@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+  	<link rel="stylesheet" href="assets/css/foundation.css">
+  	<link rel="stylesheet" href="assets/icons/foundation-icons.css">
+  	<script src="js/vendor/modernizr.js"></script>
+	<title>Inventarverwaltung - Suche</title>
+</head>
+<body>
+<div align="center">
+	<div class="row">
+		<div class="small-12 columns">
+			<img src="assets/img/logo_big.png"/>
+			<br>
+			<h2>Raumsuche</h2>
+		</div>
+	</div>
+	<form>
+		<div class="row">
+			<div class="small-8 columns small-centered" align="left">
+      			<label>Raumname
+       				<input type="text" placeholder="Nummer" />
+      			</label>			
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-6 columns small-offset-2" align="left">
+				<label>Filter
+       				<input type="text" placeholder="Software / Hardware" />
+      			</label>
+			</div>
+			<div class="small-1 columns end">
+				<a href="#" class="button tiny radius" style="margin-top:20px;">suchen</a>
+			</div>
+		</div>
+	</form>
+	<br>
+	<br>
+	<br>
+	<div class="row">
+		<div class="small-8 columns small-centered">
+			<table text-align="center">
+  				<thead>
+    				<tr>
+    					<th width="110">Raumname</th>
+  				  	 	<th>Bezeichnung</th>
+    					<th width="110">Optionen</th>
+   					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>r112</td>
+						<td>Computerraum</td>
+						<td><i class="fi-info">&emsp;<i class="fi-widget"></i></i></td>
+					</tr>
+					<tr>
+						<td>r116</td>
+						<td>Klassenzimmer</td>
+						<td><i class="fi-info"></i></td>
+					</tr>
+					<tr>
+						<td>r301</td>
+						<td>Klassenzimmer</td>
+						<td><i class="fi-info"></i></td>
+					</tr>
+					<tr>
+						<td>r313</td>
+						<td>Computerraum</td>
+						<td><i class="fi-info">&emsp;<i class="fi-widget"></i></i></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>	
+</div>
+  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
